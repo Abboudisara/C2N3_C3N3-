@@ -1,0 +1,63 @@
+.transmet{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20% 1fr;
+    margin-top:auto;
+    &__titre{
+        text-align: center;
+        color:$color2 ;
+        grid-column: 1/4;
+    }
+    &__projection{
+        grid-column: 1/2;
+        margin-left: auto;
+    }
+    &__face{
+        grid-column: 3/3;
+        margin-right: auto;
+    }
+    &__titre1{
+        color: $color2;
+        max-width: 80%;
+        text-align: center;
+        margin-left: -15%;
+    }
+    
+}
+/*********************************************************/
+.info{
+    display: flex;
+    justify-content: space-between;
+    background-color: #96C5DC;
+    
+   .information{
+    margin-left: 10%;
+   
+    &__titre{
+        color: $color2;
+        font-size: 7vh;
+        
+    }
+    &__paragraphe{
+         max-width: 55%;
+         font-size: 4vh;
+         color: #1A519E;
+         text-indent: 7px;
+    }
+   }
+   
+}
+.infortmation__buttun{
+    margin-top: 10%;
+    margin-right: 10%;
+    min-width:30%;
+   button{
+       padding: 5%;
+       border-radius: 3px;
+       border: none;
+        background-color: #1078AD;
+        color: $color4;
+    
+       
+   }
+}

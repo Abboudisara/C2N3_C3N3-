@@ -1,0 +1,40 @@
+$color1:#000000;
+$color2: #1078AD;
+$color3:#7F7F7F;
+$color4:#FFFFFF;
+$color5:#F4CF1B;
+
+.test{
+    background-color:#96C5DC;
+    margin-top: -2%;
+    text-align: center;
+    width: 100%;
+    
+    
+    
+   &__titre{
+    color: $color2;
+    position: absolute;
+    left:20%;
+    font-size: 4vh;
+
+    
+
+   }
+   &__icon{
+       position: relative;
+       left:25%;
+       padding-top: 10%;
+   }
+
+    &__button{
+     position: relative;
+     bottom:-10vh;
+     
+    }
+}
+.test__titre--color{
+    position: relative;
+    bottom:2vh;
+    color:$color4;
+}

@@ -10,7 +10,8 @@
   "scripts": {
     "watch": "node-sass -w sass -o css",
     "compile": "node-sass sass -o css",
-    "concat":"concat -o css /concat.css css/style.css css/style.comp.css"
+    "concat":"concat -o css /concat.css css/style.css css/style.comp.css",
+    "compil":"node-sass sass/conseil.scss -o css/conseil.css"
   },
   "repository": {
     "type": "git",

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   margin: 0;
   font-family: 'Cairo', sans-serif; }
@@ -192,40 +193,87 @@ footer {
   width: 100%;
   border-radius: 0px 10px 0px 10px; }
 
-.symptome {
-  display: flex;
-  flex-direction: row;
-  margin-top: 5%; }
-  .symptome__question {
+.protége {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  margin-left: 5%; }
+  .protége__titre {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    text-align: center;
+    margin-top: 1%;
+    font-size: 4vh;
+    color: #1078AD; }
+  .protége__saluez {
+    grid-column: 1/2;
+    grid-row: 2/3; }
+  .protége__lavez {
+    grid-column: 2/3;
+    grid-row: 2/3; }
+  .protége__protez {
+    grid-column: 3/4;
+    grid-row: 2/3; }
+  .protége__toussez {
+    grid-column: 1/2;
+    grid-row: 3/4; }
+  .protége__toucher {
+    grid-column: 2/3;
+    grid-row: 3/4; }
+  .protége__évitez {
+    grid-column: 3/4;
+    grid-row: 3/4; }
+  .protége__restez {
+    grid-column: 2/3;
+    grid-row: 4/5; }
+  .protége__explication {
+    max-width: 60%;
+    text-indent: 5px; }
+
+.transmet {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 20% 1fr;
+  margin-top: auto; }
+  .transmet__titre {
+    text-align: center;
     color: #1078AD;
-    min-width: 20%;
-    position: relative;
-    left: 15%;
-    font-size: 15px;
-    text-indent: 20px; }
-  .symptome__image--maladie {
-    height: 5%;
-    width: 5%;
-    margin-top: 8%;
-    position: relative;
-    left: 1%; }
-  .symptome__question--color {
-    margin-top: 15%;
-    position: relative;
-    right: 10%;
-    color: #7F7F7F; }
-    .symptome__question--color span {
-      margin-left: 14%; }
-    .symptome__question--color .deferent {
-      margin-left: 2%; }
+    grid-column: 1/4; }
+  .transmet__projection {
+    grid-column: 1/2;
+    margin-left: auto; }
+  .transmet__face {
+    grid-column: 3/3;
+    margin-right: auto; }
+  .transmet__titre1 {
+    color: #1078AD;
+    max-width: 80%;
+    text-align: center;
+    margin-left: -15%; }
 
-.symptom-button {
-  position: relative;
-  left: 52%;
-  margin-top: -8%; }
+/*********************************************************/
+.info {
+  display: flex;
+  justify-content: space-between;
+  background-color: #96C5DC; }
+  .info .information {
+    margin-left: 10%; }
+    .info .information__titre {
+      color: #1078AD;
+      font-size: 7vh; }
+    .info .information__paragraphe {
+      max-width: 55%;
+      font-size: 4vh;
+      color: #1A519E;
+      text-indent: 7px; }
 
-.titre-test {
-  color: #FFFFFF;
-  position: absolute;
-  top: 115vh;
-  left: 65%; }
+.infortmation__buttun {
+  margin-top: 10%;
+  margin-right: 10%;
+  min-width: 30%; }
+  .infortmation__buttun button {
+    padding: 5%;
+    border-radius: 3px;
+    border: none;
+    background-color: #1078AD;
+    color: #FFFFFF; }
