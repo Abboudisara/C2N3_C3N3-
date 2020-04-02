@@ -1,0 +1,25 @@
+{
+  "name": "site-corona",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "watch": "node-sass -w sass -o css",
+    "compile": "node-sass sass -o css",
+    "concat":"concat -o css /concat.css css/style.css css/style.comp.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abboudisara/C2N3_C3N3-site-corona.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abboudisara/C2N3_C3N3-site-corona/issues"
+  },
+  "homepage": "https://github.com/Abboudisara/C2N3_C3N3-site-corona#readme"
+}
