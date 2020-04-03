@@ -3,52 +3,78 @@ $color2: #1078AD;
 $color3:#7F7F7F;
 $color4:#FFFFFF;
 $color5:#F4CF1B;
-.protége{
+
+.protége {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 30.33% 30.33% 30.33%;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     margin-left: 5%;
-    
-    &__titre{
-        grid-column: 1/4;
+    text-align: center;
+
+
+
+    &__titre {
+        grid-column: 2/4;
         grid-row: 1/2;
-        text-align: center;
         margin-top: 1%;
         font-size: 4vh;
-       color: $color2;
-       
+        color: $color2;
+        max-width: 70%;
+        font-size: 5vh;
+
     }
-    &__saluez{
-        grid-column:1/2 ;
+
+    &__saluez {
+        grid-column: 1/2;
         grid-row: 2/3;
-       
+
     }
-    &__lavez{
+
+    &__lavez {
         grid-column: 2/3;
         grid-row: 2/3;
+        max-width: 80%;
+        text-indent: 10%;
+
+        position: relative;
+        bottom: 13%;
     }
-    &__protez{
+
+    &__protez {
         grid-column: 3/4;
         grid-row: 2/3;
+
     }
-    &__toussez{
-        grid-column:1/2 ;
+
+    &__toussez {
+        grid-column: 1/2;
         grid-row: 3/4;
     }
-    &__toucher{
-        grid-column:2/3 ;
+
+    &__toucher {
+        grid-column: 2/3;
         grid-row: 3/4;
     }
-    &__évitez{
-        grid-column:3/4 ;
+
+    &__évitez {
+        grid-column: 3/4;
         grid-row: 3/4;
+
     }
-   &__restez{
-    grid-column:2/3 ;
-    grid-row: 4/5;
-   }
-   &__explication{
-       max-width: 60%;
-       text-indent: 5px;
-   }
+
+    &__restez {
+        grid-column: 2/3;
+        grid-row: 4/5;
+    }
+
+    &__explication1 {
+        color: #1A519E;
+    }
+
+    &__explication {
+        color: #1A519E;
+        max-width: 80%;
+        text-indent: 10%;
+    }
+
 }

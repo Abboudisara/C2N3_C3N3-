@@ -6,12 +6,14 @@
   "dependencies": {
     "node-sass": "^4.13.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "concat": "^1.0.3"
+  },
   "scripts": {
     "watch": "node-sass -w sass -o css",
     "compile": "node-sass sass -o css",
-    "concat":"concat -o css /concat.css css/style.css css/style.comp.css",
-    "compil":"node-sass sass/conseil.scss -o css/conseil.css"
+    "concat": "concat -o css/concat.css css/style.css css/conseil.css",
+    "compil": "node-sass sass/conseil.scss -o css/conseil.css"
   },
   "repository": {
     "type": "git",
