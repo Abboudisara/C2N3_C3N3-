@@ -112,6 +112,19 @@ body {
     bottom: 1vh;
     left: 35vh; }
 
+.changement {
+  max-width: 50%;
+  text-indent: 10%;
+  margin-left: -5%; }
+
+.changement1 {
+  max-width: 70%;
+  text-align: center;
+  margin-left: -7%; }
+
+.img4 {
+  margin-left: -15%; }
+
 .test {
   background-color: #96C5DC;
   margin-top: -2%;

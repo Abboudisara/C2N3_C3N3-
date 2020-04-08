@@ -7,14 +7,19 @@
     "node-sass": "^4.13.1"
   },
   "devDependencies": {
-    "concat": "^1.0.3"
+    "autoprefixer": "^9.7.5",
+    "concat": "^1.0.3",
+    "postcss-cli": "^7.1.0"
   },
   "scripts": {
     "watch": "node-sass -w sass -o css",
     "compile": "node-sass sass -o css",
     "concat": "concat -o css/concat.css css/style.css css/conseil.css",
-    "compil": "node-sass sass/conseil.scss -o css/conseil.css"
+    "prefix": " postcss --use autoprefixer -b 5 dernières versions css/concat.css -o css/style.prefix.css"
   },
+  "browserslist": [
+    "last 4 versions"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Abboudisara/C2N3_C3N3-site-corona.git"

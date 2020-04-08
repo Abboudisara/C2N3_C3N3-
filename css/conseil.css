@@ -113,6 +113,19 @@ body {
     bottom: 1vh;
     left: 35vh; }
 
+.changement {
+  max-width: 50%;
+  text-indent: 10%;
+  margin-left: -5%; }
+
+.changement1 {
+  max-width: 70%;
+  text-align: center;
+  margin-left: -7%; }
+
+.img4 {
+  margin-left: -15%; }
+
 .test {
   background-color: #96C5DC;
   margin-top: -2%;
@@ -196,7 +209,7 @@ footer {
 .protége {
   display: grid;
   grid-template-columns: 30.33% 30.33% 30.33%;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 5% 1fr  5% 1fr 5%;
   margin-left: 5%;
   text-align: center; }
   .protége__titre {
@@ -209,35 +222,60 @@ footer {
     font-size: 5vh; }
   .protége__saluez {
     grid-column: 1/2;
-    grid-row: 2/3; }
+    grid-row: 2/3;
+    margin-top: 8%; }
+  .protége__explication1 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    color: #1A519E;
+    max-width: 85%; }
   .protége__lavez {
     grid-column: 2/3;
-    grid-row: 2/3;
-    max-width: 80%;
-    text-indent: 10%;
-    position: relative;
-    bottom: 13%; }
+    grid-row: 2/3; }
+  .protége__explication2 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    color: #1A519E;
+    max-width: 60%;
+    margin-left: 18%; }
   .protége__protez {
     grid-column: 3/4;
     grid-row: 2/3; }
+  .protége__explication3 {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    color: #1A519E;
+    max-width: 45%;
+    text-indent: 2%;
+    margin-left: 25%; }
   .protége__toussez {
     grid-column: 1/2;
-    grid-row: 3/4; }
+    grid-row: 4/5;
+    margin-top: 16%; }
+  .protége__explication4 {
+    grid-column: 1/2;
+    grid-row: 5/6;
+    color: #1A519E; }
   .protége__toucher {
     grid-column: 2/3;
-    grid-row: 3/4; }
+    grid-row: 5/6; }
+  .protége__explication6 {
+    grid-column: 2/3;
+    grid-row: 6/7;
+    color: #1A519E;
+    max-width: 60%;
+    margin-left: 20%; }
   .protége__évitez {
     grid-column: 3/4;
-    grid-row: 3/4; }
+    grid-row: 5/6; }
+  .protége__explication7 {
+    grid-column: 3/4;
+    grid-row: 6/7;
+    color: #1A519E; }
   .protége__restez {
     grid-column: 2/3;
-    grid-row: 4/5; }
-  .protége__explication1 {
+    grid-row: 7/8;
     color: #1A519E; }
-  .protége__explication {
-    color: #1A519E;
-    max-width: 80%;
-    text-indent: 10%; }
 
 .transmet {
   display: grid;
