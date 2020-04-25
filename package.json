@@ -14,7 +14,7 @@
   "scripts": {
     "watch": "node-sass -w sass -o css",
     "compile": "node-sass sass -o css",
-    "concat": "concat -o css/concat.css css/style.css css/conseil.css",
+    "concat": "concat -o css/concat.css css/style.css css/conseil.css css/test.css",
     "prefix": " postcss --use autoprefixer -b 5 dernières versions css/concat.css -o css/style.prefix.css"
   },
   "browserslist": [

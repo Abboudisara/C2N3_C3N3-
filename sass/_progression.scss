@@ -1,0 +1,23 @@
+$color1:#000000;
+$color2: #1078AD;
+$color3:#7F7F7F;
+$color4:#FFFFFF;
+$color5:#F4CF1B;
+
+.percentcount{
+    margin-left:25% ;
+    
+}
+.progresse{
+    width: 550px;
+    height: 15px;
+    background-color: #E6F1F7;
+    border-radius: 13px;
+    margin:  -1.5% 0% 0% 30%;
+}
+.progresse-bare{
+    width: 25px;
+    height: 15px;
+    border-radius: 13px;
+    background-color:$color2 ;
+}

@@ -1,0 +1,52 @@
+.barre {
+    padding: 7% 0% 0% 30%;
+    display: flex;
+    justify-content: space-between;
+
+    h1 {
+        display: flex;
+        justify-content: space-around;
+        font-size: 3vh;
+        color: $color2;
+        position: relative;
+        padding: 25%;
+
+        &::before {
+            content: "";
+            height: 22px;
+            width: 22px;
+            background-color: $color2;
+            border-radius: 50%;
+            position: absolute;
+            top: -25px;
+        }
+
+    }
+
+    .mouvement {
+        &::before {
+            content: " ";
+            height: 48px;
+            width: 48px;
+            background-color: $color2;
+            border-radius: 50%;
+            position: absolute;
+            top: -43px;
+            z-index: 1;
+            display: flex;
+            justify-content: center;
+        }
+
+        &::after {
+            content: " ";
+            height: 22px;
+            width: 22px;
+            background-color: $color5;
+            border-radius: 50%;
+            position: absolute;
+            top: -30px;
+            z-index: 10;
+        }
+    }
+
+}

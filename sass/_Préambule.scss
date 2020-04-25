@@ -1,0 +1,48 @@
+$color1:#000000;
+$color2: #1078AD;
+$color3:#7F7F7F;
+$color4:#FFFFFF;
+$color5:#F4CF1B;
+$color6:#96C5DC;
+.barre{
+    height: 100%;
+    width: 10%;
+    color: $color5;
+}
+
+.Préambule {
+    background-color: $color6;
+    margin: 0% 7% 0% ;
+
+    .titre {
+        color: $color2;
+        text-align: center;
+    }
+
+    .parag1 {
+        max-width: 90%;
+        margin: 0% 5%;
+    }
+
+    .parag2 {
+        margin: 0% 5%;
+
+    }
+
+    .ligne {
+        margin-left: 40%;
+    }
+
+
+}
+
+.test_button {
+    padding: 1% 5%;
+    border-radius: 3px;
+    border: none;
+    background-color: #1078AD;
+    color: $color4;
+    font-size: 15px;
+    margin: 5% 40%;
+
+}
