@@ -13,6 +13,8 @@ $color6:#96C5DC;
 .Préambule {
     background-color: $color6;
     margin: 0% 7% 0% ;
+    text-align: center;
+    border-radius: 5px;
 
     .titre {
         color: $color2;
@@ -30,7 +32,7 @@ $color6:#96C5DC;
     }
 
     .ligne {
-        margin-left: 40%;
+        margin-left: 0%;
     }
 
 

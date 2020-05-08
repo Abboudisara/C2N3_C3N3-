@@ -5,19 +5,19 @@ $color4:#FFFFFF;
 $color5:#F4CF1B;
 
 .percentcount{
-    margin-left:25% ;
-    
+    margin-left: -70%;  
 }
 .progresse{
     width: 550px;
     height: 15px;
     background-color: #E6F1F7;
     border-radius: 13px;
-    margin:  -1.5% 0% 0% 30%;
+    margin:  -2% 0% 0% 20%;
 }
 .progresse-bare{
-    width: 25px;
+    // width: 25px;
     height: 15px;
     border-radius: 13px;
     background-color:$color2 ;
+    width:calc(1*calc(100%/22));
 }

@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/test.css">
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
+    integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
+
     <title>page_Test</title>
 </head>
 <body>
@@ -27,41 +30,67 @@
                         </nav>
             
                     </div>
-            <!---------------------------- fin-navbar----------------------------------------------------------->
-            <!------------------------------------------------stepper------------------------------------------>
+            <!---------------------------- fin-navbar-------------------------------------->
+            <!-------------------------------stepper------------------------------------------>
             <section1 class="barre">
                 <h1 class="mouvement">informations</h1>
                 <h1>Questionnaire</h1>
                 <h1>Resultats</h1>
 
             </section1>
-            <!------------------------------------------------stepper------------------------------------------>
-                 <!-------------------------------------progresse------------------------------------------>
+            <!---------------------------------------stepper------------------------------------------>
+             <!-------------------------------------progresse------------------------------------------>
+                <section class="visible" id="question">
                  
-                     <div class="percentcount" id="percent-count">1/23</div>
-                     <div class="progresse">
-                         <div class="progresse-bare" id="progresse-bare"></div>
-                     </div>
+                     
                 
                 <!----------------------------------progresse----------------------------------------->
-                <!----------------------------------Qustion----------------------------------------->
-                
-                    <h1 class="Question">Pensez-vous avoir eu de la fièvre ces derniers jours (frissons, sueurs) ?</h1>
-                    <ul class="reponse">
-                        <li>Oui</li>
-                        <li>Non</li>
-                    </ul>
-                    <div class="question1">
-                    <h3>Anti-inflammatoires</h3>
-                    <h3>Anti-inflammatoires (ibuprofène, cortisone ...)</h3>
-                    <h3>Vous pouvez augmenter l'état de l'infection, sauf dans le radiateur.</h3>
-                    <h3>Et pour vous, vous prenez des médicaments anti-alot</h3>
-                    <h3>Vous avez aucun doute, il est nécessaire de consulter votre médecin</h3>
-                </div>
-                <button class="test_button">Suivant</button>
-                <!----------------------------------Quistion----------------------------------------->
+                <!------------------------------------------------------------------------------------------------>
+        <div class="questionaire" id="prog-bare">
+            <div class="percentcount" id="percent-count"><span class="one">1</span>/22</div>
+            <div class="progresse">
+                <div class="progresse-bare" id="progresse-bare"></div>
+            </div>
+
+
+            
+        <h1 class="questionaire__question" id="nextQuestion">Pensez-vous avoir ou avoir eu de 
+            la fièvre ces 10 derniers 
+            jours <br> (frissons, sueurs) ?</h1>
+
+            
+            <!-- <input type="number"  id="degrés" min="34" max="42" placeholder="34 - 42">
+            <span class="input-span">degrés</span> -->
+
+
+        <div class="answer-inputs">
+
+            <div>
+                <input type="radio"  name="choix" id="oui">
+                <label for="oui">
+                    <i class="fas fa-check"></i>
+                    <span>Oui</span> </label>
+            </div>
+
+            <div>
+                <input type="radio" name="choix" id="non">
+                <label for="non">
+                    <i class="fas fa-times"></i>
+                    <span>Non</span>
+                </label>
+            </div>
+        </div>
+
+<!----------------------------------------zone buttons  suivent and precedent ------------------------------------------------------->
+
+<div class="click">
+    <button class="click__précédent" id="pré-btn">Précédent</button>
+    <button class="click__suivent" id="next-btn">Suivant</button>
+</div>        
+    </section>
+    <!----------------------------------------------------------------------------------------->
             <!-----------------------------debut-partie-2-------------------------------------------------->
-            <div class="Préambule">
+            <div class="Préambule" id="para">
             <h2 class="titre">Préambule</h2>
             <p class="parag1">« L’application est fournie à titre gratuit, en l’état, uniquement à des fins d’information 
                 pour contribuer à fluidifier la prise en charge des personnes par les services d’urgences 
@@ -77,7 +106,7 @@
                      médecin compétent.</p>
 
                     </div>
-                <button class="test_button">Demarer le test</button>
+                <button class="test_button" id="start-btn">Demarer le test</button>
             <!-----------------------------fin-partie-2-------------------------------------------------->
             <!------------------------------recomondation------------------------------------------------>
             <section2>
@@ -139,5 +168,7 @@
 
     <section></section>
     <footer></footer>
+    <script src="js/srcript.js"></script>
 </body>
+
 </html>
