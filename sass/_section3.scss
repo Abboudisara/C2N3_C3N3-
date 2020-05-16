@@ -4,37 +4,44 @@ $color3:#7F7F7F;
 $color4:#FFFFFF;
 $color5:#F4CF1B;
 
-.test{
-    background-color:#96C5DC;
+
+.test {
+    background-color: #96C5DC;
     margin-top: -2%;
     text-align: center;
-    width: 100%;
-    
-    
-    
-   &__titre{
-    color: $color2;
-    position: absolute;
-    left:20%;
-    font-size: 4vh;
+    padding: 3.5%;
 
-    
 
-   }
-   &__icon{
-       position: relative;
-       left:25%;
-       padding-top: 10%;
-   }
 
-    &__button{
-     position: relative;
-     bottom:-10vh;
-     
+
+    &__titre {
+        color: $color2;
+        position: absolute;
+        left: 15%;
+        font-size: 4vh;
+
+
+
     }
+
+    &__icon {
+        position: relative;
+        left: 22%;
+        top: 40%;
+        padding-top: 7%;
+    }
+
 }
-.test__titre--color{
+
+.test__titre--color {
     position: relative;
-    bottom:2vh;
-    color:$color4;
+    bottom: -6vh;
+    left: -7%;
+    color: $color4;
+    border-radius: 3px;
+    border: none;
+    background-color: #1078AD;
+    color: $color4;
+    font-size: 20px;
+    padding: 1% 10%;
 }

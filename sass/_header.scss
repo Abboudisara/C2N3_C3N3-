@@ -11,16 +11,14 @@ body {
 
 .background {
     width: 100%;
-   
-     
+
+
 }
 
 .logo-menu {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin-top: -7.1em;
-    margin-left: 2%;
+    margin-top: -3.7em;
+    color: $color3;
+    margin-left: 3%;
 }
 
 .menu ul {
@@ -53,7 +51,7 @@ body {
         background-color: transparent;
         border: 2px solid #1078AD;
         border-radius: 10px;
-        padding:2%  7%;
+        padding: 2% 7%;
         font-size: 2.5vh;
     }
 
@@ -70,7 +68,8 @@ body {
 .consille {
     background-color: $color5;
     text-align: center;
-  
+
+
 
 
     .conseille__titre--information {
@@ -81,4 +80,7 @@ body {
     }
 }
 
-
+.consille__titre {
+    font-size: 15px;
+    margin-left: 39%;
+}

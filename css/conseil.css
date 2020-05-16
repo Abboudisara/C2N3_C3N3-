@@ -7,11 +7,9 @@ body {
   width: 100%; }
 
 .logo-menu {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  margin-top: -7.1em;
-  margin-left: 2%; }
+  margin-top: -3.7em;
+  color: #7F7F7F;
+  margin-left: 3%; }
 
 .menu ul {
   display: flex;
@@ -32,7 +30,7 @@ body {
     background-color: transparent;
     border: 2px solid #1078AD;
     border-radius: 10px;
-    padding: 2%  7%;
+    padding: 2% 7%;
     font-size: 2.5vh; }
   .menu ul .img {
     width: 5%;
@@ -49,6 +47,10 @@ body {
     max-width: 40%;
     margin-left: 30%;
     font-size: 80%; }
+
+.consille__titre {
+  font-size: 15px;
+  margin-left: 39%; }
 
 .image__symptome {
   display: grid;
@@ -131,24 +133,29 @@ body {
   background-color: #96C5DC;
   margin-top: -2%;
   text-align: center;
-  width: 100%; }
+  padding: 3.5%; }
   .test__titre {
     color: #1078AD;
     position: absolute;
-    left: 20%;
+    left: 15%;
     font-size: 4vh; }
   .test__icon {
     position: relative;
-    left: 25%;
-    padding-top: 10%; }
-  .test__button {
-    position: relative;
-    bottom: -10vh; }
+    left: 22%;
+    top: 40%;
+    padding-top: 7%; }
 
 .test__titre--color {
   position: relative;
-  bottom: 2vh;
-  color: #FFFFFF; }
+  bottom: -6vh;
+  left: -7%;
+  color: #FFFFFF;
+  border-radius: 3px;
+  border: none;
+  background-color: #1078AD;
+  color: #FFFFFF;
+  font-size: 20px;
+  padding: 1% 10%; }
 
 footer {
   display: grid;
@@ -331,3 +338,21 @@ footer {
     border: none;
     background-color: #1078AD;
     color: #FFFFFF; }
+
+.test__titre--color {
+  position: relative;
+  bottom: -6vh;
+  left: 25%;
+  color: #FFFFFF;
+  border-radius: 3px;
+  border: none;
+  background-color: #1078AD;
+  color: #FFFFFF;
+  font-size: 20px;
+  padding: 1% 10%; }
+
+.test__icon {
+  position: relative;
+  left: 45%;
+  top: 40%;
+  padding-top: 7%; }

@@ -4,3 +4,23 @@
 @import"sass/footer.scss";
 @import"sass/protége.scss";
 @import"sass/transmet.scss";
+
+.test__titre--color {
+    position: relative;
+    bottom: -6vh;
+    left: 25%;
+    color: $color4;
+    border-radius: 3px;
+    border: none;
+    background-color: #1078AD;
+    color: $color4;
+    font-size: 20px;
+    padding: 1% 10%;
+}
+
+.test__icon {
+    position: relative;
+    left: 45%;
+    top: 40%;
+    padding-top: 7%;
+}

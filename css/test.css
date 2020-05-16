@@ -41,6 +41,11 @@ body {
     right: 22%;
     padding: 2%; }
 
+.logo-menu {
+  margin-top: -3.77em;
+  color: #7F7F7F;
+  margin-left: 3%; }
+
 .image__symptome {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -300,7 +305,7 @@ footer {
 .visible {
   display: none; }
 
-/************************  *les input *********************************************/
+/********************************les input *********************************************/
 .answer-inputs {
   display: flex;
   align-items: center;
